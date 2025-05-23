@@ -3,7 +3,7 @@ import TechStack from "../components/TechStack";
 
 function Home() {
   return (
-    <div>
+    <div className="pt-24 px-4">
       <Hero />
       <TechStack />
     </div>
