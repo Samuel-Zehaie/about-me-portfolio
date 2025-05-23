@@ -105,6 +105,20 @@ function Projectone() {
             <h1 className="text-4xl font-bold text-gray-800 mb-6">
               Curious? Try it yourself 👇
             </h1>
+            <div className="mt-4 p-4 bg-gray-100 border border-gray-300 rounded-md text-sm text-gray-800 w-fit mx-auto">
+              <p>
+                <span className="font-semibold">Demo Email:</span>{" "}
+                <code className="bg-white px-1 py-0.5 rounded text-blue-600">
+                  readonly@demo.com
+                </code>
+              </p>
+              <p className="mt-2">
+                <span className="font-semibold">Password:</span>{" "}
+                <code className="bg-white px-1 py-0.5 rounded text-blue-600">
+                  demo1234
+                </code>
+              </p>
+            </div>
 
             <a
               href="https://the-wild-oasis-gray-delta.vercel.app"
