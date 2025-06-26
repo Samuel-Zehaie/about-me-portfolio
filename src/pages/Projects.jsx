@@ -1,3 +1,4 @@
+import Projectfour from "../components/Projectfour";
 import Projectone from "../components/Projectone";
 import Projectthree from "../components/Projectthree";
 import Projecttwo from "../components/Projecttwo";
@@ -8,6 +9,7 @@ function Projects() {
       <Projectone />
       <Projecttwo />
       <Projectthree />
+      <Projectfour />
     </div>
   );
 }
